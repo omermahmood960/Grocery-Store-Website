@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Euro Store</title>
+    <link rel="stylesheet" href="css/grocery.css">
+    <!----- Font Awesome Library----->
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!---Slick Slider------>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Slick JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <!----Header Section start-->
+    <div class="main">
+        <div class="header">
+            <header class="header">
+                <a href="#" class="logo"> <i class="fa-solid fa-basket-shopping"></i><span>Grocery</span></a>
+                <nav class="navbar">
+                    <a href="#home-section">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#products">Products</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#review">Review</a>
+                </nav>
+                <div class="icons">
+                    <div class="bar-icon icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="search-icon icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="cart-icon icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="user-icon icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <form class="search-bar">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <!--------Shopping Cart Start---------->
+                <div class="cart-section">
+                    <div class="shopping-cart">
+                        <div class="product-section">
+                            <div class="product-img">
+                                <img src="image/cart-img-1.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="name">WaterMelon</h3>
+                                <span class="price">$5.99</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+
+                    <div class="shopping-cart">
+                        <div class="product-section">
+                            <div class="product-img">
+                                <img src="image/cart-img-2.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="name">Onion</h3>
+                                <span class="price">$8.99</span>
+                                <span class="quantity">Qty : 3</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+
+                    <div class="shopping-cart">
+                        <div class="product-section">
+                            <div class="product-img">
+                                <img src="image/cart-img-3.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="name">Chicken</h3>
+                                <span class="price">$10.99</span>
+                                <span class="quantity">Qty : 5</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+
+                    <div class="total">
+                        <h2>Total : 18.97/-</h2>
+                        <div class="checkout-btn">
+                            <a href="#">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+                <!--------Shopping Cart End---------->
+                <div class="menu-bar-for-mobile">
+
+                </div>
+                <!--------Login Form Start------->
+                <!-- <div class="login-form">
+                <form action="">
+                    <h2>Login Form</h2>
+                    <input type="text" placeholder="Enter Your Name">
+                    <br>
+                    <input type="password" placeholder="Enter password">
+                </form>
+            </div> -->
+                <!--------Login Form End------->
+            </header>
+        </div>
+        <!-------Home Page Start------>
+        <div class="home-section" id="home-section">
+            <div class="content-section">
+                <h2>Fresh And <span class="organic">Organic</span> Products For You</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum voluptatibus recusandae magnam
+                    velit voluptatem nobis, dignissimos officia earum quibusdam non! Ex ut recusandae voluptate debitis
+                    commodi atque delectus error?</p>
+                <div class="shop-btn">
+                    <button type="submit">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <!-------Home Page Start------>
+
+        <!-------Our Features Start------>
+        <div class="features-section" id="features">
+            <h2>Our <span class="heading">Features</span></h2>
+            <div class="features-cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="image/feature-img-1.png" alt="">
+                    </div>
+                    <p class="title">Fresh And Organic</p>
+                    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores totam
+                        repellendus eligendi ab dolores cumque reiciendis tenetur ipsa itaque quaerat rerum atque
+                        tempora sequi ullam, iste, consequatur maiores, animi voluptate.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/feature-img-2.png" alt="">
+                    </div>
+                    <p class="title">Free Delivery</p>
+                    <p class="description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                        the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+                        cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
+                        from sections.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/feature-img-3.png" alt="">
+                    </div>
+                    <p class="title">Easy Payments</p>
+                    <p class="description">All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                        chunks as necessary, making this the first true generator on the Internet. It uses a dictionary
+                        of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem
+                        Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                        repetition, injected humour, or non-characteristic words etc.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+        </div>
+        <!-------Our Features End------>
+
+        <!-------Our Products Starts------>
+        <div class="products-section" id="products">
+            <div class="title-and-arrowstoslide">
+                <div class="title">
+                    <h2>Our <span class="heading">Products</span></h2>
+                </div>
+                <div class="arrows-to-slide">
+                    <i class="fa-solid fa-arrow-right slick-next-custom"></i>
+                    <i class="fa-solid fa-arrow-left slick-prev-custom"></i>
+                </div>
+            </div>
+            <div class="products">
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-4.png" alt="">
+                    </div>
+                    <p class="title">Fresh Cabbage</p>
+                    <p class="price">$4.99/-- $10.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-1.png" alt="">
+                    </div>
+                    <p class="title">Fresh Orange</p>
+                    <p class="price">$10.99/-- 20.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-2.png" alt="">
+                    </div>
+                    <p class="title">Fresh Onion</p>
+                    <p class="price">$25.99/-- $30.97/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-3.png" alt="">
+                    </div>
+                    <p class="title">Red Meat</p>
+                    <p class="price">$30.99/-- $40.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-7.png" alt="">
+                    </div>
+                    <p class="title">Orange Carrots</p>
+                    <p class="price">$4.99/-- $10.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-5.png" alt="">
+                    </div>
+                    <p class="title">Potatoes</p>
+                    <p class="price">$2.99/-- $10.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/product-6.png" alt="">
+                    </div>
+                    <p class="title">Avocaddo</p>
+                    <p class="price">$2.99/-- $10.99/</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="add-to-cart">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-------Our Products End------>
+
+        <!-------Product Catergory Start------>
+        <div class="product-categories" id="categories">
+            <h2>Product <span class="heading">Categories</span></h2>
+            <div class="categories-cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="image/cat-1.png" alt="">
+                    </div>
+                    <p class="title">Vegetables</p>
+                    <p class="price">Upto <span class="discount-value">45% OFF</span></p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/cat-2.png" alt="">
+                    </div>
+                    <p class="title">Fresh Fruits</p>
+                    <p class="description">Upto <span class="discount-value">50% OFF</span></p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/cat-3.png" alt="">
+                    </div>
+                    <p class="title">Dairy Products</p>
+                    <p class="description">Upto <span class="discount-value">65% OFF</span></p>
+                    <button class="shop-now">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <!-------Product Catergory Ends------>
+
+        <!-------Testimonial Starts------>
+        <div class="customer-reviews" id="review">
+            <h2>Customer <span class="heading">Reviews</span></h2>
+            <div class="reviews">
+                <div class="card">
+                    <div class="image">
+                        <img src="image/pic-1.png" alt="">
+                    </div>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quibusdam porro,
+                        consequatur eveniet aut quas accusantium molestiae, quod aliquam odio corporis repellendus
+                        repellat asperiores nihil quidem, et ratione voluptates voluptas.</p>
+                    <p class="name">John Doe</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/pic-2.png" alt="">
+                    </div>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos in
+                        aperiam aut excepturi eum nemo voluptate perferendis voluptatum labore quae molestiae iste
+                        cupiditate eos, eveniet commodi maiores architecto doloribus?</p>
+                    <p class="name">Smith</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="image/pic-3.png" alt="">
+                    </div>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cumque
+                        debitis alias voluptatum dolorem non eum vel similique? Libero pariatur animi quas ad vero quod,
+                        delectus placeat nisi maiores sint.</p>
+                    <p class="name">Anna Horwath</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------Testimonial Ends------>
+
+        <!-------Footer Section Starts------>
+        <div class="footer-section">
+            <div class="groco">
+                <h2>Groco <i class="fa-solid fa-basket-shopping"></i><span></h2>
+                <p class="description">Feel Free To Follow Us On Our Social Media handers. All the links are given below</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <span><i class="fa-solid fa-phone"></i>  +91333-4266901</span>
+                <span><i class="fa-solid fa-phone"></i>  +9233-4267881</span>
+                <span><i class="fa-solid fa-envelope"></i>   Info@radixSolutions.com</span>
+                <span><i class="fa-solid fa-location-dot"></i> Pune</span>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <div class="links">
+                    <span><i class="fa-solid fa-arrow-right"></i><a href="#home-section">Home</a></span>
+                    <span><i class="fa-solid fa-arrow-right"></i><a href="#features">Features</a></span>
+                    <span><i class="fa-solid fa-arrow-right"></i><a href="#products">Products</a></span>
+                    <span><i class="fa-solid fa-arrow-right"></i><a href="#categories">Categories</a></span>
+                    <span><i class="fa-solid fa-arrow-right"></i><a href="#review">Review</a></span>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2> Newsletter</h2>
+                <div class="content">
+                    <p>Subscribe for Latest Updates</p>
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <!-------Footer Section Ends------>
+    </div>
+
+    <!----Header Section end-->
+    <script src="js/grocery.js"></script>
+</body>
+
+</html>
