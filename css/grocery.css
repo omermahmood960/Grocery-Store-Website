@@ -393,6 +393,9 @@ body {
     .header .icons .bar-icon  {
         display: block;
     }
+    .products-section .card {
+     max-width: 100%;
+    }
     .navbar {
         position: absolute;
         top: 100%;
